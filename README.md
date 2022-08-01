@@ -1,5 +1,11 @@
-# STM32F103_DEV_LEARN
-F103ZET6_USART&FLASH_INPUT/SAVE/OUTPUT.zip：
+# STM32F103_DEV_LEARN32
+
+STM32例程学习、代码修改
+轮子搜集、使用、说明
+踩坑总结、经验分享
+
+
+F103ZET6_USART&FLASH_INPUT_SAVE_OUTPUT.zip：
 踩坑：中断只能接收到一个字符
 原因：函数printf()为阻塞函数，不能在中断中使用
 总结：硬件无法像软件开发一样，用一步步打印说明的方法调试。之后可以通过指示灯的闪烁来当做标志
